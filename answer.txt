@@ -1,0 +1,27 @@
+Question 1: What do you see in the browser? When you open another tab and perform a click/drag action, what happens?
++ A rabbit. 
++ In another page the rabbit will move consistently to the same action as the page when you click or drag the rabbit
+
+Question 2: What are some of the differences between TypeScript and JavaScript?
++ TypeScript is known as OBject oriented programming language, but JavaScript is a scripting language.
++ TypeScript gives support for modules whereas JavaScript does not support modules.
++ TypeScript has interface but JavaScript does not have interface.
+
+Question 3: Why is a web application bundler (Parcel, Webpack, Rollup, etc.) useful for modern web projects? What are some features that ParcelJS provides?
++ A web application bundlers help us to pack the assets of the web application( code, images,..) into bundles so that the application can be served easily.
++ >> Fast bundle times
+  >> zero Config code spliting.
+  >> hot module replacement with no configuration needed
+  >> Readable error logging by printing syntax highlighted code frames when it encounters errors.
+  >> More see reference below
+
+
+Question 4: What are the different values for the readyState a WebSocket can be in? Briefly describe what each state means. (Hint: check out the Mozilla WebSocket API)
++ 0 CONNECTING
++ 1 OPEN
++ 2 CLOSING
++ 3 CLOSED
+
+Reference:
+https://auth0.com/blog/zero-config-javascript-app-prototyping-with-parceljs/
+https://developer.mozilla.org/en-US/docs/Web/API/WebSocket
